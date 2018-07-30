@@ -1,0 +1,73 @@
+/* Universal styles */
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  colour: white;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  width: 100%;
+}
+
+.logo {
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
+.logo span {
+  color: white;
+}
+
+/* Main banner */
+
+.hero-image {
+  background-image: url('/Users/KellyPierduta/Dropbox/CPD/codecademy/projects/SecretAgentSupply/resources/images/moto.jpeg');
+  background-size: cover;
+  height: 25rem;
+}
+
+.hero-content {
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+  left: 9rem;
+}
+
+.hero-content h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Navigation */
+
+nav {
+  display: inline-block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  justify-content: space-between;
+  align-content: center;
+  background-color: firebrick;
+  width: 100%;
+}
+
+a {
+  colour: white;
+}
